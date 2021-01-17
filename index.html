@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" /> 
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="Navbar">
+  <h2>Todo app</h1>
+</div>
+
+
+<div class="hero container">
+  <h4> Controls </h4>
+    <ul class="row">
+    <li class="one-half column">press to strike through</li>
+    <li class="one-half column">double-click to delete </li>
+  </ul>
+</div>
+
+
+<form id="todoForm" class="todoForm">
+  <label for="todoInput">Add todo:</label>
+  <input type="text"/ name="todoInput" id="todoInput">
+  <button id="submit" type="submit">Add</button>
+  <div id="error"></div>  
+</form>
+
+<div class="todolist">
+    <h4>TODOS </h4>
+</div>
+
+<script src="./index.js"></script>
+</body>
+</html>

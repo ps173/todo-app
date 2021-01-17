@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #070418
+}
+hr{
+    border-color:#280070;
+    height:4px;
+}
+
+label{font-size:1.2em}
+
+h1,h2,h3,h4,h5{
+    color:#003192;
+    text-align:center;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+
+input, button ,label{
+    border-color:#000292;
+    outline-color:#000292;
+    color:#001292;
+}
+
+input[type="text"] {
+    border:1px solid #000292;
+    background-color:transparent;
+}
+
+input:active, button:active,button:hover, input:hover ,button:focus,input:focus{
+    border-color:#023292;
+    outline-color:#023292;
+    color:#001292;
+}
+
+.Navbar{
+    display:flex;
+    width:100vw;
+    height:10vh;
+    align-items:center;
+    justify-content:center;
+    background-color:#040019;
+    font-weight:200;
+    color:#000292;
+}
+
+.hero ul{
+    margin-left: min(10%,30%);
+}
+
+.todoForm{
+    margin: 5%;
+}
+
+.todolist ul{
+    position: relative;
+    margin-left:20%;
+    transition:0.3s;
+}
+
+.todolist ul li {
+    padding:10px;
+    background-color:#1A85FF12;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+li{
+    width:30%;
+    height:auto;
+    cursor: pointer;
+    transition:0.3s;
+    color: #000292;
+    font-size:1.3em
+}
+
+#error{
+    color:#9D1634;
+}
+
+.strike { 
+    transition:0.3s;
+    text-decoration:line-through;
+    color: #001292;
+    list-style-type:disc;
+}
+
+@media only screen and (max-width: 600px){
+    .todolist ul{
+        margin-left:10%;
+    }
+    .todolist ul li{
+        width:70%;
+    }
+}
+
